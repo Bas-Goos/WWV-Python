@@ -1,7 +1,11 @@
-getal1 = int(input("Geef je eerste getal:   "))
-getal2 = int(input("Geef je tweede getal:   "))
-getal3 = int(input("Geef je derde getal:   "))
+def somvan3():
 
-som = getal1 + getal2 + getal3
+    getal1 = int(input("Geef je eerste getal:   "))
+    getal2 = int(input("Geef je tweede getal:   "))
+    getal3 = int(input("Geef je derde getal:   "))
 
-print(som)
+    som = getal1 + getal2 + getal3
+
+    print(som)
+
+somvan3()
