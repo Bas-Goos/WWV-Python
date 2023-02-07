@@ -13,4 +13,9 @@ def maandEnDagPasen():
     k = c % 4
     l = (32+2*e+2*i-h-k) % 7
     m = (a+11*h+22*l) // 451
-    
+    n = (h + l - (7*m) + 114) // 31
+    p = (h + l - (7*m) + 114) % 31
+
+    print(p+1, "/", n, "/", jaartal)
+
+maandEnDagPasen()
