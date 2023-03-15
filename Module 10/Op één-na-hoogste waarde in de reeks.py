@@ -6,7 +6,7 @@ def tweedeHoogste():
         invoer = int(input("Geef een getal: "))
         if invoer == 0:
             break
-        if invoer > hoogste:
+        if invoer >= hoogste:
             voorHoogste = hoogste
             hoogste = invoer
         if invoer < hoogste and invoer > voorHoogste:
